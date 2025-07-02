@@ -1,13 +1,8 @@
 // API Configuration for different environments
 const getApiBaseUrl = () => {
-  // Check if we're in production (Railway sets NODE_ENV to 'production')
-  if (import.meta.env.PROD) {
-    // In production, use the Railway backend URL
-    // You'll need to set this as an environment variable in Railway
-    return import.meta.env.VITE_API_URL || 'https://recipe-backend-12345.up.railway.app/';
+  if (import.meta.env.VITE_API_URL) {
+    return import.meta.env.VITE_API_URL;
   }
-  
-  // In development, use localhost
   return 'http://localhost:3000';
 };
 
