@@ -9,7 +9,7 @@ export default defineConfig({
   preview: {
     port: process.env.PORT || 4173,
     host: '0.0.0.0',
-    allowedHosts: ['healthcheck.railway.app'],
+    allowedHosts: ['healthcheck.railway.app','recipe-frontend-production.up.railway.app'],
   },
   build: {
     outDir: 'dist',
