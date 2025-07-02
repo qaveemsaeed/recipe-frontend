@@ -4,7 +4,7 @@ This guide will help you deploy your React frontend and Node.js backend to Railw
 
 ## Prerequisites
 
-1. A Railway account (sign up at [railway.app](https://railway.app))
+1. A Railway account (sign up at [railway.app](https://recipe-backend-12345.up.railway.app/))
 2. Your backend code ready for deployment
 3. Git repository with your code
 
