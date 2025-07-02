@@ -4,7 +4,7 @@ const getApiBaseUrl = () => {
   if (import.meta.env.PROD) {
     // In production, use the Railway backend URL
     // You'll need to set this as an environment variable in Railway
-    return import.meta.env.VITE_API_URL || 'https://your-backend-app-name.railway.app';
+    return import.meta.env.VITE_API_URL || 'https://recipe-backend-12345.up.railway.app/';
   }
   
   // In development, use localhost
